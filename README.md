@@ -10,6 +10,8 @@ Este repositorio contiene un boilerplate para la creación de un panel administr
 
 **CommitLint:** se incluye un archivo de configuración de CommitLint para mantener un estilo de mensaje de commit consistente.
 
+**Linter:** se incluye un archivo de configuración de ESLint para mantener un estilo de código consistente. Se configura el estilo de código con las reglas de [StandardJS](https://standardjs.com/).
+
 **Husky:** se incluye un archivo de configuración de Husky para ejecutar scripts de pre-commit y pre-push.
 
 - el pre-commit ejecuta: [linter]
