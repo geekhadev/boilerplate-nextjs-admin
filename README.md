@@ -17,6 +17,8 @@ Este repositorio contiene un boilerplate para la creación de un panel administr
 - el pre-commit ejecuta: [linter]
 - el pre-push ejecuta: []
 
+**Tests:** se incluye vitest y playwrigth para realizar pruebas unitarias y e2e.
+
 ## ⚙️ Instalación
 
 1. Clona el repositorio: `git clone git@github.com:geekhadev/boilerplate-nextjs-admin.git`
@@ -45,7 +47,7 @@ Ten encuenta que hemos agregado `husky` para ejecutar una validación de los men
 
 En el directorio `docs/tests` encontrarás una serie de archivos Markdown con información sobre los tests creados para el proyecto. Puedes consultarlos para obtener más detalles sobre los tests y la funcionalidad de cada módulo.
 
-Para ejecutar los tests, utiliza el siguiente comando:
+En el directorio `__tests__` encontrarás los tests unitarios y de integración del proyecto. Puedes ejecutar los tests con el siguiente comando:
 
 ```bash
 npm run test
@@ -54,7 +56,13 @@ npm run test
 Para ejecutar el test de cobertura, utiliza el siguiente comando:
 
 ```bash
-npm run test:coverage 
+npm run test:coverage
+```
+
+En el directorio `e2e` encontrarás los tests end-to-end del proyecto. Puedes ejecutar los tests con el siguiente comando:
+
+```bash
+npm run test:e2e
 ```
 
 > Para poder hacer un push se necesita un mínimo del 90% de cobertura de código.

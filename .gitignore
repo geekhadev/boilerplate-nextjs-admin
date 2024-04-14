@@ -429,3 +429,7 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,windows,linux,node,nextjs,react,visualstudiocode,intellij
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
